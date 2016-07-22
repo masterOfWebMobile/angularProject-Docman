@@ -1,0 +1,41 @@
+<div class="followers-container">
+  <div class="title row">
+    <div class="col-xs-6">
+      <h2 ng-bind="ui.followers"></h2>  
+    </div>
+    <div class="col-xs-6">
+      <div class="search-bar">
+        <input type="text" name="" placeholder="{{ui.search_followers}}">
+        <i class="fa fa-search"></i>
+      </div>      
+      <a class="btn btn-default btn-invite" ng-bind="ui.invite_new_follower"></a>
+    </div>
+  </div>
+
+  <div class="search-result">
+    <div class="row">
+      <div class="col-xs-3">
+        <input type="checkbox">
+        <label ng-bind="ui.name"></label>
+      </div>      
+      <label class="col-xs-3" ng-bind="ui.email"></label>
+      <label class="col-xs-3" ng-bind="ui.active_deactive"></label>
+      <label class="col-xs-2" ng-bind="ui.activities"></label>
+      <label class="col-xs-2" ng-bind="ui.inviited_date"></label>
+    </div>
+
+    <div class="row result-item">
+      <div class="col-xs-3">
+        <input type="checkbox">
+        <span>NAME 1</span>
+      </div>      
+      <div class="col-xs-3">abc@domail.com</div>
+      <div class="col-xs-2">ACTIVE</div>
+      <div class="col-xs-2">FOLLOWING</div>
+      <div class="col-xs-2">2016/3/4</div>
+    </div>
+      
+    </div>
+  </div>
+  
+</div>
